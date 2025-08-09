@@ -35,7 +35,7 @@ header div {
 
 .contenido-header {
   height: 300px;
-  color: white;
+  color: rgb(15, 15, 15);
   text-align: center;
   padding-top: 100px;
   background-image: url("../imagenes/fotocasadefondo.jpg");
@@ -50,7 +50,7 @@ header div {
     background-size: 25%;
   }
   50% {
-    background-size: 50;
+    background-size: 50%;
   }
   100% {
     background-size: 100%;
@@ -58,7 +58,7 @@ header div {
 }
 .animation-header {
   height: 300px;
-  color: white;
+  color: rgb(12, 12, 12);
   text-align: center;
   padding-top: 100px;
   background-image: url("../imagenes/fondo6.png");
@@ -130,7 +130,7 @@ main {
   padding: 20px;
 }
 main h2 {
-  margin-top: 10px;
+  margin-top: 14px;
   color: #533747;
 }
 main p {
@@ -155,7 +155,7 @@ footer {
 }
 
 form {
-  padding: 130px;
+  padding: 14%;
   background-color: #86bbbd;
   text-align: center;
 }
@@ -186,6 +186,10 @@ label {
 }
 .card .card-text {
   font-style: italic;
+  background-color: bisque;
+}
+.card .card-body {
+  background-color: #5f506b;
 }
 
 .foto,
@@ -198,11 +202,6 @@ label {
 .foto1 {
   display: flex;
   flex-direction: row;
-}
-
-.col,
-.row {
-  background-color: #86bbbd;
 }
 
 .nosotros {
@@ -275,7 +274,7 @@ label {
   }
   .navbar {
     flex-direction: column;
-    position: unset;
+    position: sticky;
   }
   .principal {
     flex-direction: column;
